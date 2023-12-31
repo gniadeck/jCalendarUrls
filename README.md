@@ -17,6 +17,16 @@ Whether you're building a Java application or integrating with existing projects
 
 ## Getting Started
 
+### Example output:
+[Google Calendar](<https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20191123T080000Z/20191123T100000Z&details=What a great library for Calendar URL generation!&text=Hello from jCalendarUrls>)
+
+[Microsoft Office Calendar](<https://outlook.office.com/calendar/0/deeplink/compose?allday=false&body=What a great library for Calendar URL generation!&enddt=2019-11-23T10:00:00Z&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2019-11-23T08:00:00Z&subject=Hello>)
+
+[Microsoft Outlook Calendar](<https://outlook.live.com/calendar/0/deeplink/compose?allday=false&body=What a great library for Calendar URL generation!&enddt=2019-11-23T10:00:00Z&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2019-11-23T08:00:00Z&subject=Hello from jCalendarUrls>)
+
+[Yahoo Calendar](<https://calendar.yahoo.com/?desc=What a great library for Calendar URL generation!&dur=&et=20191123T100000Z&in_loc=&st=20191123T080000Z&title=Hello from jCalendarUrls&v=60>)
+
+
 ### Example Usage
 
 ```java
