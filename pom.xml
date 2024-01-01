@@ -9,6 +9,7 @@
     <version>1.0.0</version>
     <name>jCalendarUrls</name>
     <description>Java library simplifying the generation of calendar event URLs</description>
+    <url>https://github.com/gniadeck/jCalendarUrls</url>
 
     <licenses>
         <license>
