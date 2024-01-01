@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.gniadeck</groupId>
-    <artifactId>jCalendarUrl</artifactId>
+    <artifactId>jCalendarUrls</artifactId>
     <version>1.0.0</version>
 
     <licenses>
