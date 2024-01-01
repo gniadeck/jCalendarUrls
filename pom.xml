@@ -7,6 +7,8 @@
     <groupId>io.github.gniadeck</groupId>
     <artifactId>jCalendarUrls</artifactId>
     <version>1.0.0</version>
+    <name>jCalendarUrls</name>
+    <description>Java library simplifying the generation of calendar event URLs</description>
 
     <licenses>
         <license>
@@ -20,6 +22,11 @@
             <email>michal@gniadek.dev</email>
         </developer>
     </developers>
+    <scm>
+        <connection>scm:git:ggit@github.com:gniadeck/jCalendarUrls.git</connection>
+        <developerConnection>scm:git:ggit@github.com:gniadeck/jCalendarUrls.git</developerConnection>
+        <url>https://github.com/gniadeck/jCalendarUrls</url>
+    </scm>
 
 
     <properties>
@@ -57,6 +64,19 @@
                         <id>attach-sources</id>
                         <goals>
                             <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.2.0</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
                         </goals>
                     </execution>
                 </executions>
