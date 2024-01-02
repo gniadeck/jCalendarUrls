@@ -17,6 +17,16 @@ Whether you're building a Java application or integrating with existing projects
 
 ## Getting Started
 
+### Maven dependency
+The library is available to use through Maven Central, simply add this to maven dependencies section in order to be able to use the library
+```
+        <dependency>
+            <groupId>io.github.gniadeck</groupId>
+            <artifactId>jCalendarUrls</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+```
+
 ### Example output:
 [Google Calendar](<https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20191123T080000Z/20191123T100000Z&details=What a great library for Calendar URL generation!&text=Hello from jCalendarUrls>)
 
