@@ -3,6 +3,8 @@ name: Deploy to Nexus Staging
 on:
   push:
     branches: [ main ]
+    paths:
+      - src/main/java/**
 
 jobs:
   build:
